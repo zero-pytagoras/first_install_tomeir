@@ -8,7 +8,7 @@ and backing up configuration files as requested in the task.
 ## Script special features
 - The script verifies the user is not a root user.
 - The script uses a watchdog script to clean activities when finished.
-- To make the install smoother, the script keeps the user password in a base64 hidden file, makes use of it during the installation process, and removes it.
+- To make the install smoother, the script keeps the user password in a base64 hidden file, then makes use of it during the installation process, and removes it when finished.
 - To make the vim plugins active, i started the vim editor in PlugInstall mode and close it immidiatly after (qall)
 - The script verifies that the plugins doesn't exit to prevent duplicate, and create a .vim file if neccesary.
 - The script create temporary folders to do the backup process organized better.
