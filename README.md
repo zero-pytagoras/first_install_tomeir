@@ -78,8 +78,8 @@ The backup is saved as backup.tar.gz in the backup directory in your home folder
 The script temporarily stores the user password in a base64-encoded file (.secret) for use with sudo. 
 
 ### Troubleshooting
-Permission Denied: Execute the script from the user home directory.
-Install fail: Make sure the internet is connected, handle the errors.
+- Permission Denied: Execute the script from the user home directory.
+- Install fail: Make sure the internet is connected, handle the errors.
 
 
 
