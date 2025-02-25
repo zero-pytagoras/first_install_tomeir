@@ -3,7 +3,7 @@
 ## Description
 This script automates the setup of a Linux-based system for a development environment. 
 It handles various tasks such as system information display, installing essential utilities, setting up SSH, configuring Vim with useful plugins, 
-and backing up configuration files.
+and backing up configuration files as requested in the task.
 
 ## Features
 - **System Information**: Displays user and machine info, disk space, memory usage, and uptime.
