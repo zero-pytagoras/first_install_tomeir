@@ -48,16 +48,16 @@ The script will display the following information about your system:
 
 ### The following utilities will be installed:
 
-vim – Text editor for development
-curl – Command-line tool for transferring data
-git – Version control system
-htop – Interactive process viewer
+- vim – Text editor for development
+- curl – Command-line tool for transferring data
+- git – Version control system
+- htop – Interactive process viewer
 
 ## Vim Plugin Manager
 ### The script installs vim-plug, a plugin manager for Vim, and configures it with the following plugins:
-godlygeek/tabular – A plugin for alignment in Vim.
-tomasr/molokai – A dark Vim color scheme.
-LunarWatcher/auto-pairs – Automatically inserts matching pairs of parentheses, brackets, etc.
+- godlygeek/tabular – A plugin for alignment in Vim.
+- tomasr/molokai – A dark Vim color scheme.
+- LunarWatcher/auto-pairs – Automatically inserts matching pairs of parentheses, brackets, etc.
 
 ## SSH Setup
 ### The script installs and configures the OpenSSH server, ensuring the following:
