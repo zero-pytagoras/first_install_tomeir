@@ -6,7 +6,7 @@ It handles various tasks such as system information display, installing essentia
 and backing up configuration files as requested in the task.
 
 ## Script special features
-- The script checks the user is not a root user.
+- The script verifies the user is not a root user.
 - The script uses a watchdog script to clean activities when finished.
 - To make the install smoother, the script keeps the user password in a base64 hidden file, makes use of it during the installation process, and removes it.
 - To make the vim plugins active, i started the vim editor in PlugInstall mode and close it immidiatly after (qall)
