@@ -42,40 +42,41 @@ The script will display the following information about your system:
 - **Memory Usage:** Shows used and free memory.
 - **System Uptime:** Displays how long the system has been running.
 
-# Utility Installation
+## Utility Installation
 
-## The following utilities will be installed:
+### The following utilities will be installed:
 
 vim – Text editor for development
 curl – Command-line tool for transferring data
 git – Version control system
 htop – Interactive process viewer
-Vim Plugin Manager
-The script installs vim-plug, a plugin manager for Vim, and configures it with the following plugins:
 
+## Vim Plugin Manager
+### The script installs vim-plug, a plugin manager for Vim, and configures it with the following plugins:
 godlygeek/tabular – A plugin for alignment in Vim.
 tomasr/molokai – A dark Vim color scheme.
 LunarWatcher/auto-pairs – Automatically inserts matching pairs of parentheses, brackets, etc.
-SSH Setup
-The script installs and configures the OpenSSH server, ensuring the following:
 
-Installs OpenSSH if not already installed.
-Starts and enables the SSH service.
-Configures the firewall to allow SSH connections.
-Backup
+## SSH Setup
+### The script installs and configures the OpenSSH server, ensuring the following:
+- Installs OpenSSH if not already installed.
+- Starts and enables the SSH service.
+- Configures the firewall to allow SSH connections.
+
+## Backup
 The script creates a backup of the following directories and files:
-
-/etc – System configuration files.
-~/.config – User configuration files.
-~/.local – User local data.
-~/.bashrc and ~/.profile – Shell configuration files.
-~/.vim and ~/.vimrc – Vim configuration files.
+- /etc – System configuration files.
+- ~/.config – User configuration files.
+- ~/.local – User local data.
+- ~/.bashrc and ~/.profile – Shell configuration files.
+- ~/.vim and ~/.vimrc – Vim configuration files.
 The backup is saved as backup.tar.gz in the backup directory in your home folder.
 
-Security Considerations
-The script temporarily stores the user password in a base64-encoded file (.secret) for use with sudo. While this is convenient, it is not recommended for sensitive environments due to security concerns. For better security, consider configuring sudo or using SSH keys for privileged actions.
-Troubleshooting
-Permission Denied: Ensure the script is executed with sudo privileges if required. The script expects to run with a non-root user, but certain actions require sudo privileges.
-Missing Dependencies: Ensure you have the necessary dependencies (apt, curl, git, etc.) on your system.
+### Security Considerations
+The script temporarily stores the user password in a base64-encoded file (.secret) for use with sudo. 
+
+### Troubleshooting
+Permission Denied: Ensure the script is executed with sudo privileges if required. 
+
 
 
