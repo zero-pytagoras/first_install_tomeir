@@ -17,7 +17,7 @@ and backing up configuration files as requested in the task.
 - The script uses a watchdog script to clean activities when finished.
 - To make the install smoother, the script keeps the user password in a base64 hidden file, then makes use of it during the installation process, and removes it when finished.
 - To make the vim plugins active, i started the vim editor in PlugInstall mode and close it immidiatly after (qall)
-- The script verifies that the plugins doesn't exit to prevent duplicate, and create a .vim file if neccesary.
+- The script handles the vim config to prevent duplicate plugin install, and create a .vim file if neccesary.
 - The script create temporary folders to do the backup process organized better.
   
 ## Requirements
