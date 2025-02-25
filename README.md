@@ -35,7 +35,7 @@ cd first_install
 ```
 ### **2. Make the Script Executable**
 ```bash
-chmod +x install_script.sh
+sudo chmod +x install_script.sh
 ``` 
 ### **2. Run the Script**
 Make sure to run the script as non-root user
