@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 ######################################
-# Created by : Meir Amiel
+# Created by : Meir
 # Purpose : Primary install script
 # Date : 14/2/25
 # Version : 1
