@@ -5,6 +5,13 @@ This script automates the setup of a Linux-based system for a development enviro
 It handles various tasks such as system information display, installing essential utilities, setting up SSH, configuring Vim with useful plugins, 
 and backing up configuration files as requested in the task.
 
+## Features
+- **System Information**: Displays user and machine info, disk space, memory usage, and uptime.
+- **Utility Installation**: Installs common utilities like `vim`, `curl`, `git`, and `htop`.
+- **Vim Plugin Manager**: Installs and configures `vim-plug` to manage Vim plugins.
+- **SSH Setup**: Installs and configures OpenSSH for remote access.
+- **Backup**: Backs up key configuration files and directories.
+
 ## Script special features
 - The script verifies the user is not a root user.
 - The script uses a watchdog script to clean activities when finished.
@@ -13,13 +20,6 @@ and backing up configuration files as requested in the task.
 - The script verifies that the plugins doesn't exit to prevent duplicate, and create a .vim file if neccesary.
 - The script create temporary folders to do the backup process organized better.
   
-## Features
-- **System Information**: Displays user and machine info, disk space, memory usage, and uptime.
-- **Utility Installation**: Installs common utilities like `vim`, `curl`, `git`, and `htop`.
-- **Vim Plugin Manager**: Installs and configures `vim-plug` to manage Vim plugins.
-- **SSH Setup**: Installs and configures OpenSSH for remote access.
-- **Backup**: Backs up key configuration files and directories.
-
 ## Requirements
 - Linux-based OS (Utility install is based on apt)
 - A non-root user
