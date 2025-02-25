@@ -5,6 +5,14 @@ This script automates the setup of a Linux-based system for a development enviro
 It handles various tasks such as system information display, installing essential utilities, setting up SSH, configuring Vim with useful plugins, 
 and backing up configuration files as requested in the task.
 
+## Script special features
+- The script checks the user is not a root user.
+- The script uses a watchdog script to clean activities when finished.
+- To make the install smoother, the script keeps the user password in a base64 hidden file, makes use of it during the installation process, and removes it.
+- To make the vim plugins active, i started the vim editor in PlugInstall mode and close it immidiatly after (qall)
+- The script verifies that the plugins doesn't exit to prevent duplicate, and create a .vim file if neccesary.
+- The script create temporary folders to do the backup process organized better.
+  
 ## Features
 - **System Information**: Displays user and machine info, disk space, memory usage, and uptime.
 - **Utility Installation**: Installs common utilities like `vim`, `curl`, `git`, and `htop`.
